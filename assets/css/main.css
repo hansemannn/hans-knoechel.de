@@ -1,12 +1,12 @@
 body {
 	background: #2e2e2d url('../images/bg.jpg') no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 	margin: 0;
 	padding: 0;
-	font-family: "Helvetica Neue", "Roboto", "Arial";
+	font-family: 'Helvetica Neue', 'Roboto', 'Arial';
 }
 
 a {
@@ -22,13 +22,13 @@ p {
 .container {
 	position: absolute;
 	top: 50%;
-	margin-top: -175px;
+	margin-top: -200px;
 	left: 0;
 	width: 100%;
 }
 
 .logo-container {
-	width: 220px;
+	width: 190px;
 	margin: 0 auto;
 }
 
@@ -51,23 +51,8 @@ p {
 	font-size: 14px;	
 }
 
-.logo-container .logo .brand {
-	width: 70px;
-	height: 70px;
-	background: url('../images/hans.png') 0 0 no-repeat;
-	margin-left: auto;
-	margin-right: auto;
+.logo-container .logo .brand-image {
 	display: block;
-	text-indent: -9999px;
-}
-
-.logo-container .logo .appc {
-	width: 19px;
-	height: 17px;
-	background: url('../images/appc.png') 0 0 no-repeat;
-	display: block;
-    float: right;
-    margin-top: -17px;
 }
 
 .table {
@@ -79,8 +64,8 @@ p {
 	display: block;
 	text-decoration: none;
 	height: 55px;
-    background-color: rgba(255,255,255,0.2);
-    border-bottom: 1px solid rgba(255,255,255,0.1);
+  background-color: rgba(255,255,255,0.2);
+  border-bottom: 1px solid rgba(255,255,255,0.1);
 }
 
 .row-first {
@@ -95,9 +80,9 @@ p {
 
 .row:hover {
 	transition: background-color .25s ease-in-out;
-   -moz-transition: background-color .25s ease-in-out;
-   -webkit-transition: background-color .25s ease-in-out;
 	background-color: #0076ff;
+  -moz-transition: background-color .25s ease-in-out;
+  -webkit-transition: background-color .25s ease-in-out;
 }
 
 .row:hover .title {
@@ -139,12 +124,20 @@ p {
 	background-image: url('../images/icons/icon-github.png');
 }
 
+.icon-twitter {
+	background-image: url('../images/icons/icon-twitter.png');
+}
+
 .icon-xing {
 	background-image: url('../images/icons/icon-xing.png');
 }
 
-.icon-facebook {
-	background-image: url('../images/icons/icon-facebook.png');
+.icon-linkedin {
+	background-image: url('../images/icons/icon-linkedin.png');
+}
+
+.icon-references {
+	background-image: url('../images/icons/icon-references.png');
 }
 
 .icon-download {
@@ -187,12 +180,20 @@ only screen and (     -o-min-device-pixel-ratio: 2/1) {
 		background-image: url('../images/icons/icon-github@2x.png');
 	}
 	
+	.icon-twitter {
+		background-image: url('../images/icons/icon-twitter@2x.png');
+	}
+	
 	.icon-xing {
 		background-image: url('../images/icons/icon-xing@2x.png');
 	}
+		
+	.icon-linkedin {
+		background-image: url('../images/icons/icon-linkedin@2x.png');
+	}
 	
-	.icon-facebook {
-		background-image: url('../images/icons/icon-facebook@2x.png');
+	.icon-references {
+		background-image: url('../images/icons/icon-references@2x.png');
 	}
 	
 	.icon-download {
@@ -202,15 +203,5 @@ only screen and (     -o-min-device-pixel-ratio: 2/1) {
 	.arrow {
 		background-image: url('../images/icons/icon-arrow@2x.png');
 		background-size: 12px 20px;
-	}
-
-	.logo-container .logo .brand {
-		background-image: url('../images/hans@2x.png');
-		background-size: 70px 70px;
-	}
-
-	.logo-container .logo .appc {
-		background-image: url('../images/appc@2x.png');
-		background-size: 19px 17px;
 	}
 }
